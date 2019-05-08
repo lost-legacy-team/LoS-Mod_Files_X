@@ -21,3 +21,34 @@ For Vulkan, we use [Xenia 1.05-MLBS](https://github.com/LostLegacyTeam/LoS-Misce
 
 ### DirectX 12
 For DirectX 12, no additional steps are required to run Sonic '06 optimally, but please note that this branch of Xenia doesn't quite work well with SONIC THE HEDGEHOG. So, you may notice texture memory corruptions and/or vertex explosions. This is why we generally stick to Vulkan.
+
+# Contributors
+### Main Developers
+- Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
+- [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer and PlayStation 3 Optimisation
+- Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders
+- Sable - PlayStation 3 Compatibility and Loading Screen Designer
+- darkhero1337 - Control Tweaking and Action Gauge Replenishment
+- [Fate For Windows](https://github.com/FateForWindows) - Iblis Tweaks, Vehicle Health Meter Restoration and Action Gauge Restoration
+- Xeno Esquire - Mach Speed Sonic Improvements
+
+### Console Maintenance
+- Sable - PlayStation 3 Compatibility
+- [HyperPolygon64](https://github.com/HyperPolygon64) - PlayStation 3 Optimisation
+
+### Designers
+- [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer
+- Jotaro Powered - Backstage Graphics Designer
+- Sable - Loading Screen Designer
+- Nico_ - Logo Illustrator and New Sonic the Hedgehog Eye Textures
+- Toru - E3 Loading Screen Assets and Kingdom Valley Cubemap
+- Bacon - New Kingdom Valley Skyboxes
+- Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders
+- VolcanoTheBat - Graphics Designer and E3 HUD Creator
+
+### Tool Developers
+- [HyperPolygon64](https://github.com/HyperPolygon64) - [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit)
+- [Shadow LAG](https://github.com/lllsondowlll) - Sonic '06 SDK
+- g0ldenlink - ARC Unpacker
+- xose - ARC Repacker
+- [Skyth](https://github.com/blueskythlikesclouds) - Various Tools
