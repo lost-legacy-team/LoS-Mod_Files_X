@@ -7,11 +7,11 @@ This repository holds the Xbox 360 version of Legacy of Solaris. For more reposi
 # Usage
 If you haven't already, extract your ISO for SONIC THE HEDGEHOG using [XBOX 360 ISO EXTRACT](https://github.com/LostLegacyTeam/LoS-Miscellaneous/raw/master/Advanced%20Tools/Xbox%20360%20ISO%20Extractor/XBOX360%20ISO%20Extract.exe).
 
-To install Legacy of Solaris onto your copy of SONIC THE HEDGEHOG, you will need to use [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit)'s ARC Studio. This is a temporary solution until we have a tool to automate this process.
+To install Legacy of Solaris onto your copy of SONIC THE HEDGEHOG, you simply just replace the files in the extracted ISO with the ones you downloaded from here. However, for ``object.arc``, you will need to use [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit)'s ARC Studio. This is a temporary solution until we have a tool to automate this process.
 
-In ARC Studio, set the Source archive to the retail (unmodified) ARC and the Merge archive to the modified ARC you downloaded from here. Then set the Output to a memorable location and click Merge.
+In ARC Studio, set the Source archive to the retail (unmodified) `object.arc` and the Merge archive to the modified `object.arc` you downloaded from here. Then set the Output to a memorable location and click Merge.
 
-Your Output file will be the one used to play Legacy of Solaris. Create a backup of the file you used as the Source file and replace it with the Output file.
+Your Output file will be the one used to play Legacy of Solaris. Create a backup of the archive you used as the Source file and replace it with the Output file.
 
 # Xenia
 You can play SONIC THE HEDGEHOG using Xenia emulator, but there are some additional steps required if you want to use the Vulkan API. First of all, you must have at least Windows 8 or above to use this emulator. If so, you may continue.
