@@ -48,6 +48,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, but
 
 ### Tool Developers
 - [HyperPolygon64](https://github.com/HyperPolygon64) - [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit)
+- [Knuxfan24](https://github.com/Knuxfan24) - [Sonic '06 Mod Manager](https://github.com/Knuxfan24/Sonic-06-Mod-Manager)
 - [Shadow LAG](https://github.com/lllsondowlll) - Sonic '06 SDK
 - g0ldenlink - ARC Unpacker
 - xose - ARC Repacker
