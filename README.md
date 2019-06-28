@@ -45,6 +45,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, but
 - Bacon - New Kingdom Valley Skyboxes
 - Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders
 - VolcanoTheBat - Graphics Designer and E3 HUD Creator
+- [Knuxfan24](https://github.com/Knuxfan24) - Tropical Jungle Extra Layout
 
 ### Tool Developers
 - [HyperPolygon64](https://github.com/HyperPolygon64) - [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit)
