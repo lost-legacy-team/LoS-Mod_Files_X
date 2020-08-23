@@ -20,16 +20,16 @@ To install Legacy of Solaris onto your copy of SONIC THE HEDGEHOG, you will need
 For Vulkan, we use [Xenia 1.05-MLBS](https://github.com/lost-legacy-team/LoS-Miscellaneous/tree/master/Emulators/Performance), a custom build of Xenia which generally performs better than the latest Vulkan builds. However, you may notice just by using this version that half the screen is black and the world is rendered very dark. Download the Vulkan Patches mod included in the Performance folder and put it in your mods directory and enable it in Sonic '06 Mod Manager.
 
 ### DirectX 12
-For DirectX 12, no additional steps are required to run Sonic '06 optimally, this branch of Xenia as of now works well with SONIC THE HEDGEHOG. However, you may notice the occasional texture memory corruptions and/or vertex explosion. If those occur please press F4.
+For DirectX 12, no additional steps are required to run Sonic '06 optimally, this branch of Xenia as of now works well with SONIC THE HEDGEHOG. However, you may notice the occasional texture memory corruptions and/or vertex explosions, if those occur please press F4.
 
 # Contributors
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
 - [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer and PlayStation 3 Optimisation
-- Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders
+- Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, and Controllable Spinkick
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking and Action Gauge Replenishment
-- [Fate For Windows](https://github.com/FateForWindows) - Iblis Tweaks, Vehicle Health Meter Restoration and Action Gauge Restoration
+- [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control and Machspeed Air Control
 - Xeno Esquire - Mach Speed Sonic Improvements
 
 ### Console Maintenance
