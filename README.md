@@ -25,7 +25,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 # Contributors
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
-- [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer and PlayStation 3 Optimisation
+- [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration.
 - Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, and Controllable Spinkick
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking and Action Gauge Replenishment
