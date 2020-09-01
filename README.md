@@ -55,6 +55,6 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 - [Skyth](https://github.com/blueskythlikesclouds) - Various Tools
 - [HyperPolygon64](https://github.com/HyperPolygon64),[Radfordhound](https://github.com/Radfordhound) and [Knuxfan24](https://github.com/Knuxfan24) -Sonic '06 Glvl Converter
 
-### Developer Announcement
+### PS3 Version Announcements
 
-- The PS3 version has largely been taken offline for the time being with the exception of the player.arc and object.arc until fixings can be implmented. This mod was primarily designed for the Xbox 360 version of Sonic 06, the PS3 version was an afterthought and for the sake of my mental health, the mod is limited to the 360 version of 06 for the time being.
+- The PS3 version has been scaled back in terms of extra content and changes in comparsion to the 360 version of the mod. The amigos no longer have extra mini stories, to compensate I left the stories for Sonic,Shadow and Silver completely unaltered. The gems in sonic's story are no longer buyable until the point they normally are (before Kingdom Valley), the e3 HUD is not part of the PS3 version as the sprite arc has had comptability problems with the PS3 version before.
