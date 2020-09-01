@@ -7,7 +7,7 @@
 <h1 align="center">Legacy of Solaris (Xbox 360)</h1>
 
 This repository holds the Xbox 360 version of Legacy of Solaris. For more repositories, visit the ones listed below:
-- [PlayStation 3 Version](https://github.com/LostLegacyTeam/LoS-Mod_Files_PS)
+- [PlayStation 3 Version](https://github.com/LostLegacyTeam/LoS-Mod_Files_PS) (limited to character tweaks for the time being)
 - [Additional Content](https://github.com/LostLegacyTeam/LoS-Additional_Content)
 - [Miscellaneous](https://github.com/LostLegacyTeam/LoS-Miscellaneous)
 
@@ -54,3 +54,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 - xose - ARC Repacker
 - [Skyth](https://github.com/blueskythlikesclouds) - Various Tools
 - [HyperPolygon64](https://github.com/HyperPolygon64),[Radfordhound](https://github.com/Radfordhound) and [Knuxfan24](https://github.com/Knuxfan24) -Sonic '06 Glvl Converter
+
+### Developer Announcement
+
+- The PS3 version has largely been taken offline for the time being with the exception of the player.arc and object.arc until fixings can be implmented. This mod was primarily designed for the Xbox 360 version of Sonic 06, the PS3 version was an afterthought and for the sake of my mental health, the mod is limited to the 360 version of 06 for the time being.
