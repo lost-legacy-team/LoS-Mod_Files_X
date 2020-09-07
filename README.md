@@ -7,7 +7,7 @@
 <h1 align="center">Legacy of Solaris (Xbox 360)</h1>
 
 This repository holds the Xbox 360 version of Legacy of Solaris. For more repositories, visit the ones listed below:
-- [PlayStation 3 Version](https://github.com/LostLegacyTeam/LoS-Mod_Files_PS)
+- [PlayStation 3 Version](https://github.com/LostLegacyTeam/LoS-Mod_Files_PS) (limited to character tweaks for the time being)
 - [Additional Content](https://github.com/LostLegacyTeam/LoS-Additional_Content)
 - [Miscellaneous](https://github.com/LostLegacyTeam/LoS-Miscellaneous)
 
@@ -25,7 +25,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 # Contributors
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
-- [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer and PlayStation 3 Optimisation
+- [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration.
 - Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, and Controllable Spinkick
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking and Action Gauge Replenishment
@@ -54,3 +54,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 - xose - ARC Repacker
 - [Skyth](https://github.com/blueskythlikesclouds) - Various Tools
 - [HyperPolygon64](https://github.com/HyperPolygon64),[Radfordhound](https://github.com/Radfordhound) and [Knuxfan24](https://github.com/Knuxfan24) -Sonic '06 Glvl Converter
+
+### PS3 Version Announcements
+
+- The PS3 version has been scaled back in terms of extra content and changes in comparsion to the 360 version of the mod. The amigos no longer have extra mini stories, to compensate I left the stories for Sonic,Shadow and Silver completely unaltered. The gems in sonic's story are no longer buyable until the point they normally are (before Kingdom Valley), the e3 HUD is not part of the PS3 version as the sprite arc has had comptability problems with the PS3 version before.
