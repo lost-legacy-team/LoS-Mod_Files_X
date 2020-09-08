@@ -16,9 +16,6 @@ If you haven't already, extract your ISO for SONIC THE HEDGEHOG using [Sonic '06
 ### Sonic '06 Mod Manager (recommended)
 To install Legacy of Solaris onto your copy of SONIC THE HEDGEHOG, you will need [Sonic '06 Mod Manager](https://github.com/Knuxfan24/Sonic-06-Mod-Manager). Clone to repository to your drive (or just click Download ZIP) and put the Legacy of Solaris folder in your mods directory. Then tick the mod from Sonic '06 Mod Manager and click Save and Play (or Install Mods for FTP).
 # Xenia
-### Vulkan
-For Vulkan, we use [Xenia 1.05-MLBS](https://github.com/lost-legacy-team/LoS-Miscellaneous/tree/master/Emulators/Performance), a custom build of Xenia which generally performs better than the latest Vulkan builds. However, you may notice just by using this version that half the screen is black and the world is rendered very dark. Download the Vulkan Patches mod included in the Performance folder and put it in your mods directory and enable it in Sonic '06 Mod Manager.
-
 ### DirectX 12
 For DirectX 12, no additional steps are required to run Sonic '06 optimally, this branch of Xenia as of now works well with SONIC THE HEDGEHOG. However, you may notice the occasional texture memory corruptions and/or vertex explosions, if those occur please press F4.
 
