@@ -26,7 +26,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 - Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section.
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking and Action Gauge Replenishment
-- [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control and Rotation Interpolation Restoration. 
+- [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration and E3 Chainjump Flip Restoration. 
 - Xeno Esquire - Mach Speed Sonic Improvements
 
 ### Console Maintenance
