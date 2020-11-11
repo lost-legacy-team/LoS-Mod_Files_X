@@ -23,7 +23,8 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
 - [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration.
-- Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section.
+- Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix
+- Fen - Amy Improvement Mod
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking and Action Gauge Replenishment
 - [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration and E3 Chainjump Flip Restoration. 
