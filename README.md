@@ -43,6 +43,8 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 - Nonami - Graphics Designer, E3 HUD Creator and Tokyo Game Show Ring Shaders
 - VolcanoTheBat - Graphics Designer and E3 HUD Creator
 - [Knuxfan24](https://github.com/Knuxfan24) - Tropical Jungle Extra Layout
+- Violet - New Kingdom Valley Mach Speed Camera  Angles
+- Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
 
 ### Tool Developers
 - [HyperPolygon64](https://github.com/HyperPolygon64) - [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit)
