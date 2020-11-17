@@ -27,7 +27,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 - Fen/OtterWithAController- Amy Improvement Mod
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking and Action Gauge Replenishment
-- [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration and E3 Chainjump Flip Restoration. 
+- [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery and E3 Chainjump Flip Restoration. 
 - Xeno Esquire - Mach Speed Sonic Improvements
 
 ### Console Maintenance
