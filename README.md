@@ -29,7 +29,7 @@ For DirectX 12, no additional steps are required to run Sonic '06 optimally, thi
 - darkhero1337 - Control Tweaking and Action Gauge Replenishment
 - [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery and E3 Chainjump Flip Restoration. 
 - Xeno Esquire - Mach Speed Sonic Improvements
-- Violet - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Mission Completed Text, Updated Title Screen.
+- Violet - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Mission Completed Text, Updated Title Screen Video, Changed Transpency for mission completed text via XNCP.
 - Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
 
 ### Console Maintenance
