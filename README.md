@@ -8,7 +8,6 @@
 
 This repository holds the Xbox 360 version of Legacy of Solaris. For more repositories, visit the ones listed below:
 - [PlayStation 3 Version](https://github.com/LostLegacyTeam/LoS-Mod_Files_PS) (limited to character tweaks for the time being)
-- [Additional Content](https://github.com/LostLegacyTeam/LoS-Additional_Content)
 - [Miscellaneous](https://github.com/LostLegacyTeam/LoS-Miscellaneous)
 
 # Usage
