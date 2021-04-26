@@ -24,7 +24,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures.
 - Fen/OtterWithAController- Amy Improvement Mod
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
-- darkhero1337 - Control Tweaking and Action Gauge Replenishment
+- darkhero1337 - Control Tweaking 
 - [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery and E3 Chainjump Flip Restoration. 
 - Xeno Esquire - Mach Speed Sonic Improvements
 - Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Mission Completed Text, Updated Title Screen Video, Changed Transpency for mission completed text via XNCP, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Proper Chainjump Animation Restoration, Fixed Powerup Particles.
