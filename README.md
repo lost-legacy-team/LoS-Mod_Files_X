@@ -21,7 +21,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
 - [Hyper](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration, Mephiles Model, Disabled Blaze's Mid-air spinning claw attack.
-- Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures.
+- Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation.
 - Fen/OtterWithAController- Amy Improvement Mod
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking 
