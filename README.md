@@ -27,7 +27,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - darkhero1337 - Control Tweaking 
 - [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery, E3 Chainjump Flip Restoration Y button Lightdash. 
 - Xeno Esquire - Mach Speed Sonic Improvements
-- Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Mission Completed Text, Updated Title Screen Video, Changed Transpency for mission completed text via XNCP, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Proper Chainjump Animation Restoration, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation.
+- Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Mission Completed Text, Updated Title Screen Video, Changed Transpency for mission completed text via XNCP, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Proper Chainjump Animation Restoration, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation, added Super Shadow and Super Silver to Final Boss Result Screen
 - Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
 
 ### Console Maintenance
