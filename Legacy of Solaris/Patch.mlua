@@ -1,0 +1,10 @@
+--[Patch]--
+Title("Replace the Title Wait State with Title Selected State")
+Author("Chara")
+Platform("Xbox 360")
+Blurb("Yes...idk.")
+
+--[Functions]--
+DecryptExecutable()
+
+WriteByte(Executable|0x1B89F3|"0xF0")
