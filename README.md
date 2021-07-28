@@ -21,10 +21,11 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
 - [Hyper](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration, Mephiles Model, Disabled Blaze's Mid-air spinning claw attack.
-- Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation.
+- Nonami - Graphics Designer, E3 HUD Creator, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State.
 - Fen/OtterWithAController- Amy Improvement Mod
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking 
+- ChaosX- Tail Swipe Animation
 - [Fate For Windows](https://github.com/FateForWindows) - Action Gauge Fix, Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery, E3 Chainjump Flip Restoration Y button Lightdash. 
 - Xeno Esquire - Mach Speed Sonic Improvements
 - Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Mission Completed Text, Updated Title Screen Video, Changed Transpency for mission completed text via XNCP, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Proper Chainjump Animation Restoration, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation, added Super Shadow and Super Silver to Final Boss Result Screen
