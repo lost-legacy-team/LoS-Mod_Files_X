@@ -1,8 +1,7 @@
 --[Patch]--
-Title("Replace the Title Wait State with Title Selected State")
-Author("Chara")
+Title("Legacy of Solaris")
+Author("Lost Legacy Team")
 Platform("Xbox 360")
-Blurb("Yes...idk.")
 
 --[Functions]--
 DecryptExecutable()
