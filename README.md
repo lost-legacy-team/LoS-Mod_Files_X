@@ -63,4 +63,5 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### DISCLAIMER
 
 99% of mods will NOT work in tandem with LoS.
+
 Do not use Japanese Voices when playing LOS, Mephiles voice lines overwrite Shadow's Japanese voice lines due to limatations with modding.
