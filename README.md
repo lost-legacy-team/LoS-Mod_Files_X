@@ -63,3 +63,5 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### DISCLAIMER
 
 99% of mods will NOT work in tandem with LoS.
+
+DO NOT USE JAPANESE VOICES WHEN PLAYING LEGACY OF SOLARIS. MEPHILES VOICE CLIPS OVERWRITE SHADOW'S JAPANESE VOICE CLIPS!
