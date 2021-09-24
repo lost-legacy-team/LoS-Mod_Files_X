@@ -15,6 +15,9 @@ If you haven't already, extract your ISO for SONIC THE HEDGEHOG using the [Sonic
 
 To install Legacy of Solaris onto your copy of SONIC THE HEDGEHOG, you will need the [Sonic '06 Mod Manager](https://github.com/Knuxfan24/Sonic-06-Mod-Manager). Click `Code` and `Download ZIP` then put the Legacy of Solaris folder (**NOT** the `LoS-Mod_Files_X-master` folder) from the downloaded archive into your mods directory. Then check the mod in the Sonic '06 Mod Manager's mod list and click `Save, install content and launch Sonic '06`.
 
+If you have any other questions please watch this tutorial on how to install Legacy of Solaris
+https://youtu.be/odfsrJsIFDU
+
 For general, extra information on setting up SONIC THE HEDGEHOG mods, check the [Mod Manager's wiki](https://github.com/Knuxfan24/Sonic-06-Mod-Manager/wiki).
 
 # Contributors
