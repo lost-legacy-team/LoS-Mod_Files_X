@@ -28,7 +28,8 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Fen/OtterWithAController- Amy Improvement Mod
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking 
-- ChaosX - Tail Swipe Animation
+- ChaosX - Tail Swipe Animation, Night time Crisis City Skybox
+- Rom    - Night time Crisis City Lighting 
 - Dunker - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - Reimous - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - [Fate For Windows](https://github.com/FateForWindows) - Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery, E3 Chainjump Flip Restoration, Y button Lightdash, Restore Sonic's Action Gauge. 
