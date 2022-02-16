@@ -24,12 +24,13 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
 - [Hyper](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration, Mephiles Model, Disabled Blaze's Mid-air spinning claw attack, Restore Contextual Hud Colors
-- Nonami - Graphics Designer, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State.
+- Nonami - Graphics Designer, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State, Crisis City Section D.
 - Fen/OtterWithAController- Amy Improvement Mod
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking 
+- Gordin - Section D Layout, Omega Mephiles Phase 2 fight.
 - ChaosX - Tail Swipe Animation, Night time Crisis City Skybox
-- Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting
+- Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D
 - Dunker - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - Reimous - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - [Fate For Windows](https://github.com/FateForWindows) - Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery, E3 Chainjump Flip Restoration, Y button Lightdash, Restore Sonic's Action Gauge. 
