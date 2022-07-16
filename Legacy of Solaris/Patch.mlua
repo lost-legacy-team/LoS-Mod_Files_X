@@ -8,3 +8,4 @@ DecryptExecutable()
 
 WriteByte(Executable|0x1B89F3|"0xF0")
 WriteVirtualBytes(0x82B16E2B|"1B 82 1A 0E 40")
+WriteVirtualBytes(0x82B159BA|"00 25")
