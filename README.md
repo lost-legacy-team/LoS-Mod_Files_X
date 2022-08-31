@@ -28,7 +28,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking 
-- Gordin - Section D Layout, Omega Mephiles Phase 2 fight.
+- Gordin - Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm
 - ChaosX - Tail Swipe Animation, Night time Crisis City Skybox, Omega Updownreel animation, Blaze LightDash Animation, Blaze Mach Speed Hurt Animation
 - Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D
 - Dunker - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
