@@ -28,14 +28,14 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking 
-- Gordin - Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm
+- Gordin - Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm, Egg Cerb Head Armor Fix
 - ChaosX - Tail Swipe Animation, Night time Crisis City Skybox, Omega Updownreel animation, Blaze LightDash Animation, Blaze Mach Speed Hurt Animation, Silver Run Animation.
 - Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D, Dusty Desert Sinking Fix
 - Dunker - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - Reimous - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - [Fate For Windows](https://github.com/FateForWindows) - Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery, E3 Chainjump Flip Restoration, Y button Lightdash, Restore Sonic's Action Gauge. 
 - Xeno Esquire - Mach Speed Sonic Improvements
-- Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Updated Title Screen Video, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation, added Super Shadow and Super Silver to Final Boss Result Screen, Restore Contextual Hud Colors, Added Tail Swipe Attack Particles,Improved Kingdom Valley WaterFalls,Increased Heat Knuckle Range,Splines for Sonic's Extra Crisis City,Rouge Updownreel animation,Mission Completed Text, Restored Omega's Unused Hover Animation,Restore Silver Boss Throw, Gave Omega ottoto state
+- Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Updated Title Screen Video, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation, added Super Shadow and Super Silver to Final Boss Result Screen, Restore Contextual Hud Colors, Added Tail Swipe Attack Particles,Improved Kingdom Valley WaterFalls,Increased Heat Knuckle Range,Splines for Sonic's Extra Crisis City,Rouge Updownreel animation,Mission Completed Text, Restored Omega's Unused Hover Animation,Restore Silver Boss Throw, Gave all characters ottoto state, Egg Cerb Head Armor Fix
 - Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
 
 ### Console Maintenance
