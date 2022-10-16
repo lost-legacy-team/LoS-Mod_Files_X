@@ -30,7 +30,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - darkhero1337 - Control Tweaking 
 - Gordin - Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm, Egg Cerb Head Armor Fix
 - ChaosX - Tail Swipe Animation, Night time Crisis City Skybox, Omega Updownreel animation, Blaze LightDash Animation, Blaze Mach Speed Hurt Animation, Silver Run Animation.
-- Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D, Dusty Desert Sinking Fix
+- Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D, Dusty Desert Sinking Fix, Collision Standard Fix
 - Dunker - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - Reimous - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer, Improved Amy New Moves
 - [Fate For Windows](https://github.com/FateForWindows) - Homing Spam, Homing Flips, Homing Recovery Control, Snowboard Air Control, Machspeed Air Control, Rotation Interpolation Restoration, Bound Attack Recovery, E3 Chainjump Flip Restoration, Y button Lightdash, Restore Sonic's Action Gauge. 
