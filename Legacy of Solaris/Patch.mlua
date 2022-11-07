@@ -511,3 +511,41 @@ WriteVirtualBytes(0x821AB2E8|"80 63 00 0C 38 80 00 B0 39 60 00 01 99 63 02 30 39
 -- stb       r11, 0x230(r3)
 -- blr
 WriteVirtualBytes(0x821AB310|"80 63 00 0C 39 60 00 00 99 63 02 30 4E 80 00 20")
+
+--Create Venice.Run.Update (Start Was Old)
+WriteVirtualBytes(0x82003BF0|"821B56AC")
+-- Create Venice.Venice.End 
+WriteVirtualBytes(0x82003BF4|"821CDBF8")
+WriteVirtualBytes(0x821B56A8|"60 00 00 00")
+-- // On End
+-- .include "punkpc.s"
+-- punkpc str, list, data,ppc
+-- .set start,0x821CDBF8
+-- .set val,0x108
+-- lwz r4,8(r3)
+-- li r11,0x0
+-- stb       r11, val(r4)
+-- ba 0x822091C0
+WriteVirtualBytes(0x821CDBF8|"80 83 00 08 39 60 00 00 99 64 01 08 3C 00 82 20 60 00 91 C0 7C 09 03 A6 4E 80 04 20")
+-- // On Update
+-- .include "punkpc.s"
+-- punkpc str, list, data,ppc
+-- .set start,0x821B56AC
+-- .set stack,0xC
+-- mflr r12
+-- stw r12,-4(r1)
+-- stwu r1,-stack(r1)
+-- mr r31,r3
+-- bla 0x8220B080
+-- cmplwi cr6,r3,0x0
+-- beq cr6,sub_end //Is Mach Speed Etcc
+-- lwz r4,8(r31)
+-- li r11,0x1
+-- stb r11, 0x108(r4)
+-- sub_end:
+-- addi r1,r1,stack
+-- lwz r12,-4(r1)
+-- mtlr r12
+-- mr r3,r31
+-- ba 0x8221BB80
+WriteVirtualBytes(0x821B56AC|"7D 88 02 A6 91 81 FF FC 94 21 FF F4 7C 7F 1B 78 3C 00 82 20 60 00 B0 80 7C 08 03 A6 4E 80 00 21 2B 03 00 00 41 9A 00 10 80 9F 00 08 39 60 00 01 99 64 01 08 38 21 00 0C 81 81 FF FC 7D 88 03 A6 7F E3 FB 78 3C 00 82 21 60 00 BB 80 7C 09 03 A6 4E 80 04 20")
