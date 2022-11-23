@@ -553,10 +553,10 @@ WriteVirtualBytes(0x821B56AC|"7D 88 02 A6 91 81 FF FC 94 21 FF F4 7C 7F 1B 78 3C
 --invincibility frames
 
 --Jump to custom code
-WriteVirtualBytes(0x8220CE20|"4B F9 3E 89")
-WriteVirtualBytes(0x8220CEF0|"4B F9 3D B9")
+WriteVirtualBytes(0x8220CE20|"48 2E 62 61")
+WriteVirtualBytes(0x8220CEF0|"48 2E 61 90")
 --Custom Code
-WriteVirtualBytes(0x821A0CA8|"9B AB 01 04 81 7E 00 08 39 4B 00 B0 39 6B 01 C0 C1 AA 00 00 C0 0B 00 00 FF 0D 00 00 41 98 00 08 7D 4B 53 78 48 06 C1 01 4E 80 00 20")
+WriteVirtualBytes(0x824F3080|"9B AB 01 04 81 7E 00 08 39 4B 00 B0 39 6B 01 C0 C1 AA 00 00 C0 0B 00 00 FF 0D 00 00 41 98 00 08 7D 4B 53 78 4B D1 9D 25 4E 80 00 20")
 
 --Sound Effect
 --prevents mainmenu from jumping to ranking code
