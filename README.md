@@ -62,9 +62,9 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 
 ### PS3 Version Announcements
 
-- The PS3 version has been scaled back in terms of extra content and changes in comparsion to the 360 version of the mod. The amigos no longer have extra mini stories, to compensate I left the stories for Sonic,Shadow and Silver completely unaltered. The gems in sonic's story are no longer buyable until the point they normally are (before Kingdom Valley), the e3 HUD is not part of the PS3 version as the sprite arc has had comptability problems with the PS3 version before.
+- The PS3 version has been scaled back in terms of extra content and changes in comparsion to the 360 version of the mod. The amigos no longer have extra mini stories, to compensate I left the stories for Sonic,Shadow and Silver completely unaltered. The gems in sonic's story are no longer buyable until the point they normally are (before Kingdom Valley).
 
 ### DISCLAIMER
 
 99% of mods will NOT work in tandem with LoS.
-DO NOT PLAY LOS WITH 06 SET TO JAPANESE!
+DO NOT PLAY LOS WITH 06 SET TO OTHER LANGUAGES AS IT WILL BREAK THE NEW TEXT.
