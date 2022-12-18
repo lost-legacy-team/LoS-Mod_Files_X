@@ -20,8 +20,47 @@ WriteVirtualBytes(0x82502768|"38 A0 00 09")
 --Extend 2P limit
 WriteVirtualBytes(0x824FF1B8|"38 A0 00 09")
 
---Disable name display
-WriteVirtualBytes(0x824EAED8|"4E 80 00 20")
+
+--Fixing Buggy Selection for 1P
+
+WriteVirtualBytes(0x825027C0|"39 6B 00 09")
+WriteVirtualBytes(0x825027CC|"2F 0B 00 09")
+WriteVirtualBytes(0x825027D8|"39 6B FF F7")
+
+--Fixing Buggy Selection for 2P
+WriteVirtualBytes(0x824FF204|"39 6B 00 09")
+WriteVirtualBytes(0x824FF210|"2F 0B 00 09")
+WriteVirtualBytes(0x824FF21C|"39 6B FF F7")
+
+~~New Text Support
+
+WriteVirtualBytes(0x8208AC08|"00")
+
+--Write New Table For Character Select
+-- .int 0x820017A4 #sonic
+-- .int 0x82001794 #shadow
+-- .int 0x8200179C #silver
+-- .int 0x82001764 #tails
+-- .int 0x82001788 #amy
+-- .int 0x8200176C #rouge
+-- .int 0x82001774 #knuckles
+-- .int 0x8200178C #omega
+-- .int 0x82001780 #blaze
+-- .int 0
+WriteVirtualBytes(0x8208AC0C|"82 00 17 A4 82 00 17 94 82 00 17 9C 82 00 17 64 82 00 17 88 82 00 17 6C 82 00 17 74 82 00 17 8C 82 00 17 80 00 00 00 00")
+---Fixing part of func to read my table
+
+-- lis r9,0x8208AC0C@ha
+-- addi r9,r9,0x8208AC0C@l
+-- stw r9,0x60(r1)
+WriteVirtualBytes(0x824EAF10|"3D 20 82 09 39 29 AC 0C 91 21 00 60")
+
+
+-- lwz r10,0x60(r1)
+WriteVirtualBytes(0x824EAF54|"81410060")
+WriteVirtualBytes(0x824EAF84|"81410060")
+
+~~NopPPCs for game improvement
 
 WriteNopPPC(Executable|0x21DCBC)
 WriteNopPPC(Executable|0x21AEE0)
