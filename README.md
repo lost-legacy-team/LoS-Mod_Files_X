@@ -31,7 +31,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Gordin (Fishly 101)- Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm, Egg Cerb Head Armor Fix, Key Radar Scripting
 - Lokester - Iblis Phase 3 Blaze Scripting
 - ChaosX - Tail Swipe Animation, Night time Crisis City Skybox, Omega Updownreel animation, Blaze LightDash Animation, Blaze Mach Speed Hurt Animation, Silver Run Animation, New Shadow Run Animations, Key Radar Greyed out Key Asset
-- Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D, Dusty Desert Sinking Fix, Collision Standard Fix
+- Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D, Dusty Desert Sinking Fix
 - Dunker - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer
 - VolcanotheBat (JeraCyclo Gaming) -  Amigo Names for MP Selection Creator
 - Reimous - Restore Sonic's Action Gauge, Restore Contextual Hud Colors, All Characters Selectable in Multiplayer, Improved Amy New Moves, Silver Glowing while Running, Unique DLC Text, Amigo Names in MP Selection
