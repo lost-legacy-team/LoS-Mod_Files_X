@@ -68,4 +68,4 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### DISCLAIMER
 
 99% of mods will NOT work in tandem with LoS.
-DO NOT PLAY LOS WITH 06 SET TO OTHER LANGUAGES AS IT WILL BREAK THE NEW TEXT.
+LoS is now comptaible with other languages (Italian, German, Japanese, French and Spanish) but the text will be in english.
