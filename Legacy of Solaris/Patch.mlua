@@ -764,3 +764,18 @@ WriteVirtualBytes(0x82211633|"05")
 WriteVirtualBytes(0x8221232F|"00")
 WriteVirtualBytes(0x822124BF|"00")
 WriteVirtualBytes(0x82211FD3|"00")
+
+--Trick Point Fix
+WriteVirtualNop(0x824DBDD0)
+WriteVirtualBytes(0x82533BAC|"3F 20 82 04 3B 39 CD 38 3B 40 00 00 2F 03 00 00 40 9A 00 0C 93 5F 00 1C 93 5F 00 18 81 9F 00 18 1D 6C 02 58 7F 8B E2 14 81 7F 00 1C 7D 7C 5A 14 91 7F 00 1C 60 00 00 00 60 00 00 00 83 7F 00 18 2B 1B 00 10 41 98 00 08 3B 60 00 09")
+WriteVirtualNop(0x82533BF8|15)
+WriteVirtualBytes(0x82533CF8|"39 6B 5C F0")
+WriteVirtualBytes(0x82533CF0|"3D 60 82 B7")
+WriteVirtualBytes(0x82533DA8|"38 80 00 03")
+
+--MP Particle Fixes
+--Disable condintion flag to multiplayer what disable particles
+WriteVirtualBytes(0x826651E4|"60 00 00 00 60 00 00 00")
+
+--Allows display to all screens unless one last
+WriteVirtualBytes(0x82648D70|"60 00 00 00")
