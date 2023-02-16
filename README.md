@@ -40,10 +40,6 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Updated Title Screen Video, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation, added Super Shadow and Super Silver to Final Boss Result Screen, Restore Contextual Hud Colors, Added Tail Swipe Attack Particles,Improved Kingdom Valley WaterFalls,Increased Heat Knuckle Range,Splines for Sonic's Extra Crisis City,Rouge Updownreel animation,Mission Completed Text, Restored Omega's Unused Hover Animation,Restore Silver Boss Throw, Gave all characters ottoto state, Egg Cerb Head Armor Fix,Shadow Slide Kick Particle Fix, Key Radar XNCP UI, Improved Shield Power-up and added SFX, Gauge Full SFX, Aquatic Base Changelight Lighting, Restore Trickpoint Combos
 - Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
 
-### Console Maintenance
-- Sable - PlayStation 3 Compatibility
-- [HyperPolygon64](https://github.com/HyperPolygon64) - PlayStation 3 Optimisation
-
 ### Designers
 - [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer
 - Jotaro Powered - Backstage Graphics Designer
@@ -63,9 +59,20 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 
 ### PS3 Version Announcements
 
-- The PS3 version has been scaled back in terms of extra content and changes in comparsion to the 360 version of the mod. The amigos no longer have extra mini stories, to compensate I left the stories for Sonic,Shadow and Silver completely unaltered. The gems in sonic's story are no longer buyable until the point they normally are (before Kingdom Valley).
+- The PS3 version has been removed until further notice, do not ask about a PS3 version, I don't know when or if it will happen. As of now, for various reasons, the mod is for 360 version of 06 only.
 
 ### DISCLAIMER
 
 99% of mods will NOT work in tandem with LoS.
-LoS is now comptaible with other languages (Italian, German, Japanese, French and Spanish) but the text will be in english.
+
+### Other languages
+
+Do to popular demand I have added complete support for the spanish language. Now all of the unique text is in spanish. (This was done via machine translation so if you notice anything odd and would like to correct the main offenders (in game hints, and loading screen hints) please feel free to contact me!
+I am looking for anyone willing to translate this mod into japanese and potentially the other languages it supports, german, and french.
+If you have the time are willing, by all means feel free to contribute.
+
+### The game is crashing!!/things are not working
+
+I am not going to take any reports of the mod making the game crash if you are using other patches beyond what LoS already uses by default. I am not responsible for testing the comptability of every patch with the LoS mod. Do not report anything like t posing, not being able to switch from elise to sonic in kdv ex, etc. if you are using a different player arc.
+It is a user created problem, not something that is the fault of the mod itself.
+
