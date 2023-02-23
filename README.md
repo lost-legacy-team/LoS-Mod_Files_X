@@ -25,7 +25,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
 - [Hyper](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration, Mephiles Model, Disabled Blaze's Mid-air spinning claw attack, Restore Contextual Hud Colors, Disable Sand Jump 
 - Nonami - Graphics Designer, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For the Townhubs and Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State, Crisis City Section D.
-- Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer, Improved Amy Animations, New Rainbow Ring Animations (Tails,Knuckles,Rouge,Omega), New Climbing Animation for Knuckles
+- Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer, Improved Amy Animations, New Rainbow Ring Animations (Tails,Knuckles,Rouge,Omega)
 - Sable - PlayStation 3 Compatibility and Loading Screen Designer
 - darkhero1337 - Control Tweaking 
 - Gordin (Fishly 101)- Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm, Egg Cerb Head Armor Fix, Key Radar Scripting, Hard Mode Mission Access in Hub Scripting
