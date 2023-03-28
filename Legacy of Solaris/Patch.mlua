@@ -1,6 +1,6 @@
 --[Patch]--
 Title("Legacy of Solaris")
-Author("Lost Legacy Team")
+Author("Hyper, Jase, Desko, Chara, Reimous, Dunker, Nonami and VolcanotheBat")
 Platform("Xbox 360")
 
 --[Functions]--
@@ -20,6 +20,8 @@ WriteVirtualBytes(0x82502768|"38 A0 00 09")
 --Extend 2P limit
 WriteVirtualBytes(0x824FF1B8|"38 A0 00 09")
 
+--Restore Loading Transition 
+WriteVirtualBytes(0x82167DEC|"38 80 00 00 38 7E 19 74 48 41 93 0D 54 6B 06 3E 2B 0B 00 00 41 9A 00 30 38 7E 19 74 48 4A DF 59 3F E0 00 01 63 FF B0 00 93 E1 00 44 38 63 00 20 38 81 00 44 81 63 00 00 81 6B 00 04 7D 69 03 A6 4E 80 04 21 38 21 00 70 81 81 FF F8 7D 88 03 A6 EB C1 FF E8 EB E1 FF F0 4E 80 00 20")
 
 --Fixing Buggy Selection for 1P
 
