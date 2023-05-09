@@ -780,3 +780,14 @@ WriteVirtualBytes(0x826651E4|"60 00 00 00 60 00 00 00")
 
 --Allows display to all screens unless one last
 WriteVirtualBytes(0x82648D70|"60 00 00 00")
+
+--Blue Gem Hurts Enemies
+WriteVirtualBytes(0x821A2EB0|"48 35 10 79")
+
+WriteVirtualBytes(0x824F3F28|"99 4B 02 48 99 4B 00 E5 99 4B 00 F0 4B CA EF 80 60 00 00 00")
+
+WriteVirtualBytes(0x82003AD0|"82 4F 3F 3C")
+
+WriteVirtualBytes(0x824F3F3C|"81 63 00 0C 39 40 00 00 99 4B 02 48 99 4B 00 E5 99 4B 00 F0 4B D1 52 70")
+
+WriteNopPPC(Executable|0x509D30)
