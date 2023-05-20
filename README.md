@@ -6,9 +6,7 @@
 
 <h1 align="center">Legacy of Solaris (Xbox 360)</h1>
 
-This repository holds the Xbox 360 version of Legacy of Solaris. For more repositories, visit the ones listed below:
-- [PlayStation 3 Version](https://github.com/LostLegacyTeam/LoS-Mod_Files_PS) (limited to character tweaks for the time being)
-- [Miscellaneous](https://github.com/LostLegacyTeam/LoS-Miscellaneous)
+This repository holds the Xbox 360 version of Legacy of Solaris. 
 
 # Usage
 If you haven't already, extract your ISO for SONIC THE HEDGEHOG using the [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit).
@@ -23,10 +21,10 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 # Contributors
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
-- [Hyper](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, PlayStation 3 Optimisation, Wind Restoration, Mephiles Model, Disabled Blaze's Mid-air spinning claw attack, Restore Contextual Hud Colors, Disable Sand Jump 
+- [Hyper](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, Wind Restoration, Mephiles Model, Disabled Blaze's Mid-air spinning claw attack, Restore Contextual Hud Colors, Disable Sand Jump 
 - Nonami - Graphics Designer, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State, Crisis City Section D.
 - Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer, Improved Amy Animations, New Rainbow Ring Animations (Tails,Knuckles,Rouge,Omega)
-- Sable - PlayStation 3 Compatibility and Loading Screen Designer
+- Sable - Loading Screen Designer
 - darkhero1337 - Control Tweaking 
 - Gordin (Fishly 101)- Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm, Egg Cerb Head Armor Fix, Key Radar Scripting, Hard Mode Mission Access in Hub Scripting
 - Lokester - Iblis Phase 3 Blaze Scripting
@@ -59,7 +57,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 
 ### PS3 Version Announcements
 
-- The PS3 version has been removed until further notice, do not ask about a PS3 version, I don't know when or if it will happen. As of now, for various reasons, the mod is for 360 version of 06 only.
+- The PS3 version has been cancelled, do not ask about a PS3 version, it's not going to happen. 
 
 ### DISCLAIMER
 
