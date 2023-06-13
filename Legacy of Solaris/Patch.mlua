@@ -792,3 +792,8 @@ WriteVirtualBytes(0x824F3F3C|"81 63 00 0C 39 40 00 00 99 4B 02 48 99 4B 00 E5 99
 
 WriteNopPPC(Executable|0x509D30)
 
+--Force point lights to draw on objects
+WriteVirtualNop(0x8258DBC4|8)
+
+--Force point lights to draw on terrain
+WriteVirtualNop(0x8258DF60|8)
