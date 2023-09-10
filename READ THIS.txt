@@ -1,2 +1,2 @@
 To install the dll patch, you will need to move the common folder, the default.xex and test.xex to the game's root folder (where the xex is). When copying, just replace the xex (backup the original xex) When the game boots up, you should see a prompt, click okay.
-I was informed this does work on modded 360's. You will need to use the version of xenia I provided as xenia canary has problems with the current dll method.
+I was informed this does work on modded 360's. You will need to use the version of xenia I provided as xenia canary has problems with the current dll method. 

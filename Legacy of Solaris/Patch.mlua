@@ -793,3 +793,35 @@ WriteVirtualBytes(0x8200AAE4|"821B236C")
 WriteVirtualBytes(0x821B236C|"FF E0 08 90 39 60 00 00 81 63 00 C4 55 6B 07 FE 2B 0B 00 00 41 9A 00 10 3D 60 82 1B C0 0B 23 98 D0 03 02 60 FC 20 F8 90 48 06 0C 84 42 C8 00 00")
 ---0x821B236C+0x2C = 0x821B2398,Omega Hover Start Timer
 WriteVirtualBytes(0x821B2398|"3F800000")
+
+
+-- Knuckles and Rouge Glide can damage enemies (modify the Xenia Config File to set Protect Zero to False)
+
+DecryptExecutable()
+--Knuckles
+WriteVirtualBytes(0x821AD734|"48 34 68 79")
+
+WriteVirtualBytes(0x824F3FAC|"9B CB 00 E5 9B CB 00 F0 4E 80 00 20")
+
+WriteVirtualBytes(0x82004E7C|"82 4F 3F BC")
+
+WriteVirtualBytes(0x824F3FBC|"81 23 00 08 39 60 00 00 39 40 00 01 99 69 00 E5 99 69 00 F0 81 23 00 08 99 39 00 EA 81 43 00 08 99 6A 00 FB 4E 80 00 20")
+
+--Rouge
+
+WriteVirtualBytes(0x82005134|"82 4F 3F BC")
+
+
+WriteNopPPC(Executable|0x509D30)
+
+BeginBlock("core\archives\player.arc")
+
+--Add required parameters to Knuckles' script
+ParameterAdd("core\player\knuckles.lub"|"c_sliding_power"|"500 * N")
+ParameterAdd("core\player\knuckles.lub"|"c_sliding_damage"|"1 * point")
+
+--Add required parameters to Rouge' script
+ParameterAdd("core\player\rouge.lub"|"c_sliding_power"|"500 * N")
+ParameterAdd("core\player\rouge.lub"|"c_sliding_damage"|"1 * point")
+
+EndBlock("core\archives\player.arc")
