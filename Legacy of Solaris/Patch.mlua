@@ -795,10 +795,8 @@ WriteVirtualBytes(0x821B236C|"FF E0 08 90 39 60 00 00 81 63 00 C4 55 6B 07 FE 2B
 WriteVirtualBytes(0x821B2398|"3F800000")
 
 
--- Knuckles and Rouge Glide can damage enemies (modify the Xenia Config File to set Protect Zero to False)
 
-DecryptExecutable()
---Knuckles
+--Knuckles and Rouge glide can damage enemies.
 WriteVirtualBytes(0x821AD734|"48 34 68 79")
 
 WriteVirtualBytes(0x824F3FAC|"9B CB 00 E5 9B CB 00 F0 4E 80 00 20")
@@ -806,8 +804,6 @@ WriteVirtualBytes(0x824F3FAC|"9B CB 00 E5 9B CB 00 F0 4E 80 00 20")
 WriteVirtualBytes(0x82004E7C|"82 4F 3F BC")
 
 WriteVirtualBytes(0x824F3FBC|"81 23 00 08 39 60 00 00 39 40 00 01 99 69 00 E5 99 69 00 F0 81 23 00 08 99 39 00 EA 81 43 00 08 99 6A 00 FB 4E 80 00 20")
-
---Rouge
 
 WriteVirtualBytes(0x82005134|"82 4F 3F BC")
 
