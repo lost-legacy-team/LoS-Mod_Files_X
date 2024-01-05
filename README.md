@@ -21,7 +21,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 # Contributors
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
-- [Hyper](https://github.com/HyperPolygon64) - Lead Graphics Designer, Software Engineer, Trailer Editor, Lost Legacy Helper Developer, Wind Restoration, Mephiles Model, Disabled Blaze's Mid-air spinning claw attack, Restore Contextual Hud Colors, Disable Sand Jump 
+- Hyper - Research and Development 
 - Nonami - Graphics Designer, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State, Crisis City Section D.
 - Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer, Improved Amy Animations, New Rainbow Ring Animations (Tails,Knuckles,Rouge,Omega)
 - Sable - Loading Screen Designer
@@ -39,7 +39,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
 
 ### Designers
-- [HyperPolygon64](https://github.com/HyperPolygon64) - Lead Graphics Designer
+- Hyper - Lead Graphics Designer
 - Jotaro Powered - Backstage Graphics Designer
 - Sable - Loading Screen Designer
 - Nico_ - Logo Illustrator 
@@ -47,13 +47,13 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - VolcanoTheBat - Graphics Designer and E3 HUD Creator
 
 ### Tool Developers
-- [HyperPolygon64](https://github.com/HyperPolygon64) - [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit)
+- [Hyper]- [Sonic '06 Toolkit] (https://github.com/HyperBE32/Marathon/releases)
 - [Knuxfan24](https://github.com/Knuxfan24) - [Sonic '06 Mod Manager](https://github.com/Knuxfan24/Sonic-06-Mod-Manager)
 - [Shadow LAG](https://github.com/lllsondowlll) - Sonic '06 SDK
 - g0ldenlink - ARC Unpacker
 - xose - ARC Repacker
 - [Skyth](https://github.com/blueskythlikesclouds) - Various Tools
-- [HyperPolygon64](https://github.com/HyperPolygon64),[Radfordhound](https://github.com/Radfordhound) and [Knuxfan24](https://github.com/Knuxfan24) -Sonic '06 Glvl Converter
+- [Hyper],[Radfordhound] and [Knuxfan24] -Sonic '06 Glvl Converter
 
 ### PS3 Version Announcements
 
