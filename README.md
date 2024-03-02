@@ -9,7 +9,7 @@
 This repository holds the Xbox 360 version of Legacy of Solaris. 
 
 # Usage
-If you haven't already, extract your ISO for SONIC THE HEDGEHOG using the [Sonic '06 Toolkit](https://github.com/HyperPolygon64/Sonic-06-Toolkit).
+If you haven't already, extract your ISO for SONIC THE HEDGEHOG using the [Sonic '06 Toolkit](https://github.com/HyperBE32/Marathon/releases)
 
 To install Legacy of Solaris onto your copy of SONIC THE HEDGEHOG, you will need the [Sonic '06 Mod Manager](https://github.com/Knuxfan24/Sonic-06-Mod-Manager). Click `Code` and `Download ZIP` then put the Legacy of Solaris folder (**NOT** the `LoS-Mod_Files_X-master` folder) from the downloaded archive into your mods directory. Then check the mod in the Sonic '06 Mod Manager's mod list and click `Save, install content and launch Sonic '06`.
 

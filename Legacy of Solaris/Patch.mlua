@@ -665,9 +665,6 @@ WriteVirtualBytes(0x826651E4|"60 00 00 00 60 00 00 00")
 --Allows display to all screens unless one last
 WriteVirtualBytes(0x82648D70|"60 00 00 00")
 
---Blue Gem Hurts Enemies
-WriteVirtualBytes(0x821A2EB0|"48 35 10 79")
-
 WriteVirtualBytes(0x824F3F28|"99 4B 02 48 99 4B 00 E5 99 4B 00 F0 4B CA EF 80 60 00 00 00")
 
 WriteVirtualBytes(0x82003AD0|"82 4F 3F 3C")
@@ -794,7 +791,8 @@ WriteVirtualBytes(0x821B236C|"FF E0 08 90 39 60 00 00 81 63 00 C4 55 6B 07 FE 2B
 ---0x821B236C+0x2C = 0x821B2398,Omega Hover Start Timer
 WriteVirtualBytes(0x821B2398|"3F800000")
 
-
+--Gives Knux Homing Call for Screwdriver
+WriteVirtualBytes(0x82B157A6|"00 19")
 
 --Knuckles and Rouge glide can damage enemies.
 WriteVirtualBytes(0x821AD734|"48 34 68 79")
@@ -807,6 +805,10 @@ WriteVirtualBytes(0x824F3FBC|"81 23 00 08 39 60 00 00 39 40 00 01 99 69 00 E5 99
 
 WriteVirtualBytes(0x82005134|"82 4F 3F BC")
 
+WriteVirtialBytes("0x822204FC","816B0010")
+WriteVirtialBytes("0x822204C4","3D608201") --ChangeFloat
+WriteVirtialBytes("0x822204D4","C3EB231C") --ChangeFloat
+WriteVirtialBytes("0x82220508","EFFF0072") -- fmuls f31,f31,f1
 
 WriteNopPPC(Executable|0x509D30)
 
