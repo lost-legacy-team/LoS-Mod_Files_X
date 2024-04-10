@@ -62,7 +62,6 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### DISCLAIMER
 
 99% of mods will NOT work in tandem with LoS.
-Before Playing LoS, please modify your xenia config file to set protect_zero to false. If you are utilizing xenia-canary, edit xenia-canary.config to set protect_zero to false. (protect_zero=false)
 
 ### Other languages
 
