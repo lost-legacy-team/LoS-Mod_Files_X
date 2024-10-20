@@ -815,3 +815,36 @@ WriteVirtualBytes(0x82005134|"82 4F 3F BC")
 
 -- call other constructor so on release of it, game didnt call null vft destructor or like it
 WriteVirtialBytes(0x82506D30|"4BFE4A69")
+
+WriteVirtualBytes(0x82AEA31C|"01 01 01 99 02 01 01 99 7D 69 03 A6 4E 80 04 20")
+WriteVirtualBytes(0x82000820|"00 01 01 99")
+--Replace State.BossSonic.ChainJump.Action.MID to DLL LOADER
+-- .include "punkpc.s"  
+-- punkpc str, list, data,ppc
+-- .set start,0x821B57B0
+-- .set XLoadImage,0x82AEA31C
+-- .set Handle,0x82B74740
+-- mflr r12
+-- stw r12,-8(r1)
+-- stwu r1,-0x100(r1)
+-- lis r11,(DLL_STRING+start)@ha
+-- addi r3,r11,(DLL_STRING+start)@l
+-- li r4,0x9
+-- li r5,0
+-- addi r6,r1,0x50
+-- bla XLoadImage 
+-- lwz r4,0x50(r1) #Handle
+-- lis r3,Handle@ha
+-- stw r4,Handle@l(r3)
+-- addi r1,r1,0x100
+-- lwz r12,-8(r1)
+-- mtlr r12
+-- blr
+-- DLL_STRING: .string "game:\\TEST.xex"
+-- .long 0x0
+
+WriteVirtualBytes(0x821B57B0|"7D 88 02 A6 91 81 FF F8 94 21 FF 00 3D 60 82 1B 38 6B 57 F0 38 80 00 09 38 A0 00 00 38 C1 00 50 3C 00 82 AE 60 00 A3 1C 7C 08 03 A6 4E 80 00 21 38 21 01 00 81 81 FF F8 7D 88 03 A6 4E 80 00 20 67 61 6D 65 3A 5C 54 45 53 54 2E 78 65 78 00 00")
+-- .include "punkpc.s"  
+-- punkpc str, list, data,ppc
+-- bl -(0x82537AF0-0x821B57B0)
+WriteVirtualBytes(0x82537AF0|"4BC7DCC1")
