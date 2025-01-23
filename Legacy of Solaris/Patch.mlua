@@ -848,3 +848,6 @@ WriteVirtualBytes(0x821B57B0|"7D 88 02 A6 91 81 FF F8 94 21 FF 00 3D 60 82 1B 38
 -- punkpc str, list, data,ppc
 -- bl -(0x82537AF0-0x821B57B0)
 WriteVirtualBytes(0x82537AF0|"4BC7DCC1")
+
+WriteVirtualNop(0x821AA908)
+WriteVirtualNop(0x821AA910)
