@@ -747,3 +747,19 @@ WriteVirtualBytes(0x82537AF0|"4BC7DCC1")
 
 WriteVirtualNop(0x821AA908)
 WriteVirtualNop(0x821AA910)
+ 
+--Redirect ground state to air state.
+WriteBytes(Executable|0x1A5FD2|"3B 14")
+
+--Redirect animation cue to restore sound.
+WriteByte(Executable|0x1A619F|0xCC)
+
+--Remove height limiter.
+WriteNopPPC(Executable|0x1A61B8)
+
+--Remove speed limiters.
+WriteNopPPC(Executable|0x1A61C0)
+WriteNopPPC(Executable|0x1A61C4)
+
+--Redirect ground animation to air animation.
+WriteByte(Executable|0xB173B3|0x24)
