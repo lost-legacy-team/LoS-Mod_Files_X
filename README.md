@@ -40,6 +40,8 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Xeno Esquire - Mach Speed Sonic Improvements
 - Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Updated Title Screen Video, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation, added Super Shadow and Super Silver to Final Boss Result Screen, Restore Contextual Hud Colors, Added Tail Swipe Attack Particles,Improved Kingdom Valley WaterFalls,Increased Heat Knuckle Range,Splines for Sonic's Extra Crisis City,Rouge Updownreel animation,Mission Completed Text, Restored Omega's Unused Hover Animation,Restore Silver Boss Throw, Gave all characters ottoto state, Egg Cerb Head Armor Fix,Shadow Slide Kick Particle Fix, Key Radar XNCP UI, Improved Shield Power-up and added SFX, Gauge Full SFX, Aquatic Base Changelight Lighting, Restore Trickpoint Combos,Blue Gem Damages Enemies, Knuckles and Rouge Glide can Damage Enemies.
 - Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
+- Spanish new text translations done by Ariosto and FinnJackal
+- French next text translations done by Napstio
 
 ### Designers
 - Hyper - Lead Graphics Designer
