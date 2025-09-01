@@ -1,1 +1,10 @@
-To install the dll patch, you will need to move the common folder, the default.xex and test.xex to the game's root folder (where the xex is). When copying, just replace the xex (backup the original xex) When the game boots up, you should see a prompt, click okay.
+Notes for installation:
+Legacy of Solaris now requires Gordon Ramsay's Complete Physics Overhaul, Physics Companion, and Khronos mods. The mod will not function properly without them. Please follow all instructions for their installation, including installing the Khronos Resources.,
+Legacy of Solaris MUST be loaded last in the mod managers priority. If your priority is set to "bottom to top", then LoS must be at the top of the list. If "top to bottom", then at the bottom of the list.,
+
+Known issues
+Multiplayer no longer works with Legacy of Solaris, as it will not load with Physics. This will most likely not be fixed.,
+Some stages are still in need of additional polishing, but every stage is beatable.,
+Mephiles is missing a few particles. Will look into this.,
+Spanish and French language support for the post-game quest as Sonic is not implemented as of yet, as we're waiting on the translations.,
+ (edited)

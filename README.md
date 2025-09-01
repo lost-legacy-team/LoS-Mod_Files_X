@@ -22,14 +22,13 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### Main Developers
 - Jotaro Powered - Lead Developer, Backstage Graphics Designer and Additional Content
 - Hyper - Research and Development, Controllable Omega Lock-On, Controllable Green Gem
-- Alastor - Omega Hover Animation Fix
 - Nonami - Graphics Designer, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State, Crisis City Section D.
-- Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer, Improved Amy Animations, New Rainbow Ring Animations (Tails,Knuckles,Rouge,Omega), Omega Lock-on Reticle Texture, Omega Voice Remix, Elise Improvements
+- Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer, Improved Amy Animations, New Rainbow Ring Animations (Tails,Knuckles,Rouge,Omega), Omega Lock-on Reticle Texture, Omega Voice Remix, Elise Improvements, Physics Comptability 
 - Mellow - Elise Improvements
 - Scrafty- Omega Voice Remix
 - Sable - Loading Screen Designer
 - darkhero1337 - Control Tweaking 
-- Gordin (Fishly 101)- Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm, Egg Cerb Head Armor Fix, Key Radar Scripting, Hard Mode Mission Access in Hub Scripting
+- Gordin (Fishly 101)- Section D Layout, Omega Mephiles Phase 2 fight, Key Randomization Algorithm, Egg Cerb Head Armor Fix, Key Radar Scripting, Physics Mod Original Creator
 - Lokester - Iblis Phase 3 Blaze Scripting
 - ChaosX - Tail Swipe Animation, Night time Crisis City Skybox, Omega Updownreel animation, Blaze LightDash Animation, Blaze Mach Speed Hurt Animation, Silver Run Animation, New Shadow Run Animations, Key Radar Greyed out Key Asset
 - Rom    - Night time Crisis City Lighting, Kingdom Valley B Skybox and Lighting, Crisis City Section D, Dusty Desert Sinking Fix
@@ -79,3 +78,13 @@ If you have the time are willing, by all means feel free to contribute.
 I am not going to take any reports of the mod making the game crash if you are using other patches beyond what LoS already uses by default. I am not responsible for testing the comptability of every patch with the LoS mod. Do not report anything like t posing, not being able to switch from elise to sonic in kdv ex, etc. if you are using a different player arc.
 It is a user created problem, not something that is the fault of the mod itself.
 
+### Notes for installation:
+Legacy of Solaris now requires Gordon Ramsay's Complete Physics Overhaul, Physics Companion, and Khronos mods. The mod will not function properly without them. Please follow all instructions for their installation, including installing the Khronos Resources.,
+Legacy of Solaris MUST be loaded last in the mod managers priority. If your priority is set to "bottom to top", then LoS must be at the top of the list. If "top to bottom", then at the bottom of the list.,
+
+### Known issues
+Multiplayer no longer works with Legacy of Solaris, as it will not load with Physics. This will most likely not be fixed.,
+Some stages are still in need of additional polishing, but every stage is beatable.,
+Mephiles is missing a few particles. Will look into this.,
+Spanish and French language support for the post-game quest as Sonic is not implemented as of yet, as we're waiting on the translations.,
+ (edited)
