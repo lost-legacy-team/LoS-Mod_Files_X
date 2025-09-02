@@ -74,31 +74,6 @@ WriteByte(Executable|0x21ADC8|0x40)
 --Controllable Homing Recovery
 WriteBytes(Executable|0x21A600|"48 00")
 
---Controllable Spinkick and Teleport Dash 
---Remove direction limiter for Sonic.
---WriteNopPPC(Executable|0x1A5984)
-
---Remove direction limiter for Shadow.
---WriteNopPPC(Executable|0x1AAA04)
-
---Remove direction limiter. (Teleport Dash)
---WriteNopPPC(Executable|0x21F49C)
-
---Fix Sonic_Fast Goal Loop 
---WriteByte(Executable|0x21379F|0x12)
-
---Disable Climb from Jump as Knuckles
---WriteBytes(Executable|0x7DE1|"1A5F30")
---Increase Knuckles Shockwave Range
-WriteVirtualBytes(0x822460E6|"82 01")
-WriteVirtualBytes(0x822460EE|"D9 D0")
-
---Disable Climb from Jump as Rouge
---WriteBytes(Executable|0x8099|"1A5F30")
-
---Disable Midair Spinning Claw for Blaze
-WriteVirtualBytes(0x821ABFD8|"48 00")
-
 --Various Function Changes to include Gameplay Improvements Such as mid-air control in mach speed or snowboard
 --Disable Push State
 WriteNopPPC(Executable|0x1A33F0)
@@ -136,29 +111,13 @@ WriteBytes("core\effect\player\shadow\sh_chaos_blast00.mab"|0x990|"43 16")
 WriteBytes("core\effect\player\shadow\sh_chaos_blast00.mab"|0xE70|"3E 99 99 9A 3E 99 99 9A 3E 99 99 9A")
 EndBlock("core\archives\particle.arc")
 
---Restore Snowboard Against Animation
---WriteByte(Executable|0x217A07|0x0C)
-
 --Various Character Lua and Pkg edits for improved and new attacks 
 BeginBlock("core\archives\player.arc")
---Increased Shield Range and Sliding power for Elise
---ParameterEdit("core\player\princess.lub"|"c_sliding_power"|"150 * N")
---ParameterAdd("core\player\princess.lub"|"c_sliding_collision"|"{ type = shape_sphere, radius = 1.5 * meter, offset = { x = 0 * meter, y = -1, z = 0.5 * meter } }")
---Restore Dynamic Snowboard Bones
---ParameterAdd("core\player\snow_board.lub"|"c_hair"|"{ "TopHair", "HighLeftHair", "HighRightHair", "LowLeftHair", "LowRightHair", "MiddleHair" }")
---ParameterAdd("core\player\snow_board_wap.lub"|"c_hair"|"{ "TopHair", "HighLeftHair", "HighRightHair", "LowLeftHair", "LowRightHair", "MiddleHair" }")
---Restore Snowboard Against Animation pkg
---PackageEdit("core\player\snow_board.pkg"|"motion"|"against"|"player/sonic_new/so_brd_collision_Root.xnm")
 --Fixed Common State Particles
 StringReplace("core\player\silver.lub"|"  OpenEffect(_ARG_0_, effect_module_venice, "player_silver")"|"  OpenEffect(_ARG_0_, effect_module_venice, "player_silver")  OpenEffect(_ARG_0_, effect_module_sonic, "player_silver")")
 Ignore("sonic"|"select"|"boss"|"board"|"super")
 PackageEdit("core\player"|"particle"|"common"|"particle/player_sonic.plc")
 EndBlock("core\archives\player.arc")
-
---Correct Fast Sonic's Goal Animation
---BeginBlock("win32\archives\player_sonic.arc")
---WriteBytes("win32\player\sonic_new\so_goal01_l_Root.xnm"|0x7C|"53 28 1B C2 00 00 80 3F 53 28 1B C2 00 00 00 40 53 28 1B C2 00 00 40 40 53 28 1B C2 00 00 80 40 53 28 1B C2 00 00 A0 40 53 28 1B C2 00 00 C0 40 53 28 1B C2 00 00 E0 40 53 28 1B C2 00 00 00 41 53 28 1B C2 00 00 10 41 53 28 1B C2 00 00 20 41 53 28 1B C2 00 00 30 41 53 28 1B C2 00 00 40 41 53 28 1B C2 00 00 50 41 53 28 1B C2 00 00 60 41 53 28 1B C2 00 00 70 41 53 28 1B C2 00 00 88 41 53 28 1B C2 00 00 90 41 53 28 1B C2 00 00 98 41 53 28 1B C2 00 00 A0 41 53 28 1B C2 00 00 A8 41 53 28 1B C2 00 00 B0 41 53 28 1B C2 00 00 B8 41 53 28 1B C2 00 00 C0 41 53 28 1B C2 00 00 C8 41 53 28 1B C2 00 00 D0 41 53 28 1B C2 00 00 D8 41 53 28 1B C2 00 00 E0 41 53 28 1B C2 00 00 E8 41 53 28 1B C2 00 00 F0 41 53 28 1B C2 00 00 F8 41 53 28 1B C2 00 00 00 42 53 28 1B C2 00 00 04 42 53 28 1B C2 00 00 08 42 53 28 1B C2 00 00 0C 42 53 28 1B C2 00 00 10 42 53 28 1B C2 00 00 14 42 53 28 1B C2 00 00 18 42 53 28 1B C2 00 00 1C 42 53 28 1B C2 00 00 20 42 53 28 1B C2 00 00 24 42 53 28 1B C2 00 00 28 42 53 28 1B C2 00 00 2C 42 53 28 1B C2 00 00 30 42 53 28 1B C2 00 00 34 42 53 28 1B C2 00 00 38 42 53 28 1B C2 00 00 3C 42 53 28 1B C2 00 00 44 42 53 28 1B C2 00 00 48 42 53 28 1B C2 00 00 4C 42 53 28 1B C2 00 00 50 42 53 28 1B C2 00 00 54 42 53 28 1B C2 00 00 58 42 53 28 1B C2 00 00 5C 42 53 28 1B C2 00 00 60 42 53 28 1B C2 00 00 64 42 53 28 1B C2 00 00 68 42 53 28 1B C2 00 00 6C 42 53 28 1B C2 00 00 70 42 53 28 1B C2 00 00 74 42 53 28 1B C2 00 00 78 42 53 28 1B C2 00 00 7C 42 53 28 1B C2 00 00 80 42 53 28 1B C2")
---EndBlock("win32\archives\player_sonic.arc")
 
 --Fixes the water landing particle for Fast Sonic
 WriteBytes(Executable|0xF5A8|"73 70 6C 61 73 68 30 32 00 00 00 00")
@@ -194,8 +153,6 @@ WriteBytes(Executable|0x39BF4|"40 00 00 00")
 WriteBytes(Executable|0x39C04|"40 00 00 00")
 
 Xbox 360:
---Restore Homing Flips
---WriteBytes(Executable|0x21A3F0|"41 9A")
 --Restore Homing Spam
 WriteByte(Executable|0x21A5D8|0x40)
 WriteByte(Executable|0x1A98AC|0x40)
@@ -343,15 +300,16 @@ WriteVirtualBytes(0x821B56AC|"7D 88 02 A6 91 81 FF FC 94 21 FF F4 7C 7F 1B 78 3C
 
 --Sound Effect
 --prevents mainmenu from jumping to ranking code
-WriteVirtualBytes(0x824F2B10|"4E 80 00 20")
-WriteVirtualBytes(0x82506D04|"41 9A 00 40")
+--WriteVirtualBytes(0x824F2B10|"4E 80 00 20")
+--WriteVirtualBytes(0x82506D04|"41 9A 00 40")
 
 --Jump to custom code
-WriteVirtualBytes(0x8216CB48|"48 38 63 49")
+--WriteVirtualBytes(0x8216CB48|"48 38 63 49")
 --custom code
-WriteVirtualBytes(0x824F2E90|"2F 0B 00 08 41 9A 00 0C 48 00 00 58 60 00 00 00 1D 7D 00 4C 7D 6B FA 14 7F E3 FB 78 81 4B 0E 50 39 4A 00 C8 91 4B 0E 50 48 00 00 08 60 00 00 00 7D 88 02 A6 91 81 FF F8 FB E1 FF F0 94 21 FF 90 3D 60 82 01 7C 7F 1B 78 38 CB DD 94 3D 60 82 00 7F E4 FB 78 38 AB 11 DC 38 61 00 50 4B C7 85 A1 2F 0B 00 06 41 9A 00 0C 39 6B FF FB 4B C7 9C 51 1D 7D 00 4C 7D 6B FA 14 7F E3 FB 78 81 4B 0E 50 39 4A 00 C8 91 4B 0E 50 48 00 00 08 60 00 00 00 7D 88 02 A6 91 81 FF F8 FB E1 FF F0 94 21 FF 90 3D 60 82 05 7C 7F 1B 78 38 CB 92 20 3D 60 82 00 7F E4 FB 78 38 AB 11 DC 38 61 00 50 4B C7 85 41")
+--WriteVirtualBytes(0x824F2E90|"2F 0B 00 08 41 9A 00 0C 48 00 00 58 60 00 00 00 1D 7D 00 4C 7D 6B FA 14 7F E3 FB 78 81 4B 0E 50 39 4A 00 C8 91 4B 0E 50 48 00 00 08 60 00 00 00 7D 88 02 A6 91 81 FF F8 FB E1 FF F0 94 21 FF 90 3D 60 82 01 7C 7F 1B 78 38 CB DD 94 3D 60 82 00 7F E4 FB 78 38 AB 11 DC 38 61 00 50 4B C7 85 A1 2F 0B 00 06 41 9A 00 0C 39 6B FF FB 4B C7 9C 51 1D 7D 00 4C 7D 6B FA 14 7F E3 FB 78 81 4B 0E 50 39 4A 00 C8 91 4B 0E 50 48 00 00 08 60 00 00 00 7D 88 02 A6 91 81 FF F8 FB E1 FF F0 94 21 FF 90 3D 60 82 05 7C 7F 1B 78 38 CB 92 20 3D 60 82 00 7F E4 FB 78 38 AB 11 DC 38 61 00 50 4B C7 85 41")
 --Writes "gauge_max"
-WriteVirtualBytes(0x82049220|"67 61 75 67 65 5F 6D 61 78 00 00 00 00")
+--WriteVirtualBytes(0x82049220|"67 61 75 67 65 5F 6D 61 78 00 00 00 00")
+
 --Allocate More Memory Original 0x02F8
 WriteVirtualBytes(0x824A72BC|"38600360")
 WriteVirtualNop(0x82505AF4|1058)
@@ -371,21 +329,21 @@ WriteVirtualBytes(0x82501DBC|"388B02F8")
 WriteVirtualBytes(0x82501B08|"388B02F8")
 
 --because Effect Module use 5,6 for SkateFX show instead default 0,1 which one currently in fast states (shadow_fast improvements)
-WriteVirtualBytes(0x82B16678|"00 00 00 05")
-WriteVirtualBytes(0x82B16694|"00 00 00 06")
-WriteVirtualBytes(0x82B166E8|"00 00 00 00")
-WriteVirtualBytes(0x82B16704|"00 00 00 01")
+--WriteVirtualBytes(0x82B16678|"00 00 00 05")
+--WriteVirtualBytes(0x82B16694|"00 00 00 06")
+--WriteVirtualBytes(0x82B166E8|"00 00 00 00")
+--WriteVirtualBytes(0x82B16704|"00 00 00 01")
 --Fast Start
-WriteVirtualBytes(0x821A8D0B|"01")
+--WriteVirtualBytes(0x821A8D0B|"01")
 --Jump Start Update
-WriteVirtualBytes(0x822119EF|"00")
-WriteVirtualBytes(0x82211A13|"00")
+--WriteVirtualBytes(0x822119EF|"00")
+--WriteVirtualBytes(0x82211A13|"00")
 --FastRun
-WriteVirtualBytes(0x8221030F|"05")
+--WriteVirtualBytes(0x8221030F|"05")
 --FastRun DUSH 
-WriteVirtualBytes(0x82211627|"06")
+--WriteVirtualBytes(0x82211627|"06")
 --Fast Run Single
-WriteVirtualBytes(0x82211633|"05")
+--WriteVirtualBytes(0x82211633|"05")
 
 --Bruh Fixes
 WriteVirtualBytes(0x8221232F|"00")
@@ -393,12 +351,12 @@ WriteVirtualBytes(0x822124BF|"00")
 WriteVirtualBytes(0x82211FD3|"00")
 
 --Trick Point Fix for Rainbow Rings
-WriteVirtualNop(0x824DBDD0)
-WriteVirtualBytes(0x82533BAC|"3F 20 82 04 3B 39 CD 38 3B 40 00 00 2F 03 00 00 40 9A 00 0C 93 5F 00 1C 93 5F 00 18 81 9F 00 18 1D 6C 02 58 7F 8B E2 14 81 7F 00 1C 7D 7C 5A 14 91 7F 00 1C 60 00 00 00 60 00 00 00 83 7F 00 18 2B 1B 00 10 41 98 00 08 3B 60 00 09")
-WriteVirtualNop(0x82533BF8|15)
-WriteVirtualBytes(0x82533CF8|"39 6B 5C F0")
-WriteVirtualBytes(0x82533CF0|"3D 60 82 B7")
-WriteVirtualBytes(0x82533DA8|"38 80 00 03")
+--WriteVirtualNop(0x824DBDD0)
+--WriteVirtualBytes(0x82533BAC|"3F 20 82 04 3B 39 CD 38 3B 40 00 00 2F 03 00 00 40 9A 00 0C 93 5F 00 1C 93 5F 00 18 81 9F 00 18 1D 6C 02 58 7F 8B E2 14 81 7F 00 1C 7D 7C 5A 14 91 7F 00 1C 60 00 00 00 60 00 00 00 83 7F 00 18 2B 1B 00 10 41 98 00 08 3B 60 00 09")
+--WriteVirtualNop(0x82533BF8|15)
+--WriteVirtualBytes(0x82533CF8|"39 6B 5C F0")
+--WriteVirtualBytes(0x82533CF0|"3D 60 82 B7")
+--WriteVirtualBytes(0x82533DA8|"38 80 00 03")
 
 --MP Particle Fixes
 --Disable condintion flag to multiplayer what disable particles
@@ -471,17 +429,12 @@ WriteVirtualBytes(0x82537B34|"60 00 00 00")
 WriteVirtualBytes(0x82537B3C|"60 00 00 00")
 WriteVirtualBytes(0x82537B28|"60 00 00 00")
 
---Optional Patches listed below. Remove the "--" before the patch to enable
-
 --Pause Menu Mission Text (Desko & Hyper, restores the unfinished pause menu mission text that shows the mission you're currently doing)
 WriteVirtualNop(0x824F0018)
 WriteVirtualNop(0x824F02A0)
 WriteVirtualBytes(0x82509AEA|"15 FC")
 
---Restore Bat Cracker (Chara/Nancy)
-WriteVirtualBytes(0x821AFD48|"99 4B 02 34")
+--Optional Patches listed below. Remove the "--" before the patch's code to enable
 
---Disable x2MSAA
-Xbox 360
-WriteVirtualBytes(0x82607B94|"38800000")
-EncryptExecutable()
+--Restore Bat Cracker (Chara/Nancy)
+--WriteVirtualBytes(0x821AFD48|"99 4B 02 34")
