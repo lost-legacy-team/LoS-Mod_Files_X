@@ -438,6 +438,3 @@ WriteVirtualNop(0x824F02A0)
 WriteVirtualBytes(0x82509AEA|"15 FC")
 
 --Optional Patches listed below. Remove the "--" before the patch's code to enable
-
---Restore Bat Cracker (Chara/Nancy)
-WriteVirtualBytes(0x821AFD48|"99 4B 02 34")
