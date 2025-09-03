@@ -74,20 +74,23 @@ WriteByte(Executable|0x21ADC8|0x40)
 --Controllable Homing Recovery
 WriteBytes(Executable|0x21A600|"48 00")
 
+--Disable Climb from Jump as Knuckles
+--WriteBytes(Executable|0x7DE1|"1A5F30")
+--Increase Knuckles Shockwave Range
+WriteVirtualBytes(0x822460E6|"82 01")
+WriteVirtualBytes(0x822460EE|"D9 D0")
+
+--Disable Climb from Jump as Rouge
+--WriteBytes(Executable|0x8099|"1A5F30")
+
+--Disable Midair Spinning Claw for Blaze
+WriteVirtualBytes(0x821ABFD8|"48 00")
+
 --Various Function Changes to include Gameplay Improvements Such as mid-air control in mach speed or snowboard
 --Disable Push State
 WriteNopPPC(Executable|0x1A33F0)
 WriteNopPPC(Executable|0x1A33F4)
 WriteNopPPC(Executable|0x1A33F8)
---Midair Mach Speed Control
---WriteNopPPC(Executable|0x213380)
---WriteNopPPC(Executable|0x213384)
---WriteNopPPC(Executable|0x2133B4)
---WriteNopPPC(Executable|0x2133B8)
---Midair Snowboard Control
---WriteNopPPC(Executable|0x217710)
---WriteNopPPC(Executable|0x217878)
---WriteNopPPC(Executable|0x2175B8)
 
 --Disable Sand Jump
 WriteVirtualBytes(0x8220924C|"48 00")
@@ -437,4 +440,4 @@ WriteVirtualBytes(0x82509AEA|"15 FC")
 --Optional Patches listed below. Remove the "--" before the patch's code to enable
 
 --Restore Bat Cracker (Chara/Nancy)
---WriteVirtualBytes(0x821AFD48|"99 4B 02 34")
+WriteVirtualBytes(0x821AFD48|"99 4B 02 34")
