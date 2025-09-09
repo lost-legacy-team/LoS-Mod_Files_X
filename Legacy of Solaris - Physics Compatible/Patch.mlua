@@ -437,4 +437,3 @@ WriteVirtualNop(0x824F0018)
 WriteVirtualNop(0x824F02A0)
 WriteVirtualBytes(0x82509AEA|"15 FC")
 
---Optional Patches listed below. Remove the "--" before the patch's code to enable
