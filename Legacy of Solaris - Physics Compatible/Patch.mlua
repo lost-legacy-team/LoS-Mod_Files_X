@@ -164,9 +164,6 @@ WriteByte(Executable|0x1A926E|0x8F)
 --Shadow homing after state
 WriteByte(Executable|0x1A9792|0x8F)
 
---Replace the Title Wait State with Title Selected State
-WriteByte(Executable|0x1B89F3|"0xF0")
-
 --Gives Rouge the Updown Reel State
 WriteVirtualBytes(0x82B16E2B|"1B 82 1A 0E 40")
 
