@@ -1,6 +1,6 @@
 --[Patch]--
-Title("Legacy of Solaris")
-Author("Hyper, Jase, Desko, Chara, Reimous, Dunker, Nonami and VolcanotheBat")
+Title("Legacy of Solaris - Physics Compatible")
+Author("JotaroPowered and Lost Legacy Team")
 Platform("Xbox 360")
 
 --[Functions]--
@@ -17,15 +17,6 @@ WriteByte(Executable|0x21ADC8|0x40)
 
 --Controllable Homing Recovery
 WriteBytes(Executable|0x21A600|"48 00")
-
---Disable Climb from Jump as Knuckles
---WriteBytes(Executable|0x7DE1|"1A5F30")
---Increase Knuckles Shockwave Range
-WriteVirtualBytes(0x822460E6|"82 01")
-WriteVirtualBytes(0x822460EE|"D9 D0")
-
---Disable Climb from Jump as Rouge
---WriteBytes(Executable|0x8099|"1A5F30")
 
 --Disable Midair Spinning Claw for Blaze
 WriteVirtualBytes(0x821ABFD8|"48 00")
