@@ -27,6 +27,10 @@ WriteNopPPC(Executable|0x1A33F0)
 WriteNopPPC(Executable|0x1A33F4)
 WriteNopPPC(Executable|0x1A33F8)
 
+--Knuckles Range Increase
+WriteVirtualBytes(0x822460E6|"82 01")
+WriteVirtualBytes(0x822460EE|"D9 D0")
+
 --Disable Sand Jump
 WriteVirtualBytes(0x8220924C|"48 00")
 
