@@ -27,6 +27,10 @@ WriteNopPPC(Executable|0x1A33F0)
 WriteNopPPC(Executable|0x1A33F4)
 WriteNopPPC(Executable|0x1A33F8)
 
+--Knuckles Range Increase
+WriteVirtualBytes(0x822460E6|"82 01")
+WriteVirtualBytes(0x822460EE|"D9 D0")
+
 --Disable Sand Jump
 WriteVirtualBytes(0x8220924C|"48 00")
 
@@ -127,42 +131,6 @@ WriteVirtualBytes(0x822196E8|"48025959")
 --Additions to the condition of the delay | Don't start the delay when specific states are utilized or gems are unselected
 WriteVirtualBytes(0x82219550|"7F D4 F3 78 7C 7E 1B 78 60 00 00 00")
 WriteVirtualBytes(0x8223F040|"3A 94 FF E0 82 B4 00 54 3A C0 00 00 3D 80 82 24 39 8C F0 B4 7C 0C B0 AE 7F 00 A8 00 41 9A 00 38 3A D6 00 01 2B 16 00 05 40 9A FF EC 81 7F 02 50 2B 0B 00 00 41 9A 00 3C 81 7F 00 54 55 6B 7F FE 2B 0B 00 00 41 9A 00 2C 81 7F 02 50 2B 0B 00 06 41 9A 00 20 80 7F 02 34 3D 60 82 00 C0 0B 0D D8 81 63 00 34 D0 03 00 2C 39 6B 00 01 91 63 00 34 4E 80 00 20 4A 4B 4D 41 0B")
-
---Sonic and Shadow Y button Lightdash
---Sonic fall state
-WriteByte(Executable|0x219B4A|0x8F)
---Sonic jump state
-WriteByte(Executable|0x219CC6|0x8F)
---Sonic widespring state
-WriteByte(Executable|0x219F12|0x8F)
---Sonic/Princess homing after state
-WriteByte(Executable|0x21A45A|0x8F)
---Sonic bound state
-WriteByte(Executable|0x21ACD2|0x8F)
---Sonic wait state
-WriteByte(Executable|0x21BB22|0x8F)
---Sonic walk state
-WriteByte(Executable|0x21BDF6|0x8F)
---Sonic run state
-WriteByte(Executable|0x21C0D6|0x8F)
-
---Fast Sonic run state
-WriteByte(Executable|0x21465E|0x8F)
-
---Shadow wait state
-WriteByte(Executable|0x1A8502|0x8F)
---Shadow walk state
-WriteByte(Executable|0x1A87C6|0x8F)
---Shadow run state
-WriteByte(Executable|0x1A8A8E|0x8F)
---Shadow fall state
-WriteByte(Executable|0x1A8D56|0x8F)
---Shadow jump state
-WriteByte(Executable|0x1A8F5E|0x8F)
---Shadow widespring state
-WriteByte(Executable|0x1A926E|0x8F)
---Shadow homing after state
-WriteByte(Executable|0x1A9792|0x8F)
 
 --Gives Rouge the Updown Reel State
 WriteVirtualBytes(0x82B16E2B|"1B 82 1A 0E 40")
