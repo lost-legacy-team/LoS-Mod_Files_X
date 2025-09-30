@@ -176,6 +176,9 @@ WriteByte(Executable|0x1A926E|0x8F)
 --Shadow homing after state
 WriteByte(Executable|0x1A9792|0x8F)
 
+--Correct Omega Shot Properties
+WriteVirtualBytes(0x822488F0|"38 C0 1C 80")
+
 --Replace the Title Wait State with Title Selected State
 WriteByte(Executable|0x1B89F3|"0xF0")
 
