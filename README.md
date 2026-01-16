@@ -24,7 +24,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Hyper - Research and Development, Controllable Omega Lock-On, Controllable Green Gem
 - Nonami - Graphics Designer, Tokyo Game Show Ring Shaders, Increased Chaos Blast Range, Controllable Spinkick, Beta Lighting For Kingdom Valley's 1st section, Wall Climb Fix, Controllable Teleport Dash, Tokyo Game Show Box Textures, Correct Sonic_Fast Goal Loop animation, Gave Tails the SpinKick State, Crisis City Section D.
 - Fen/OtterWithAController- Amy Improvement Mod, Mephiles Custom Particles, Co Level Designer, Improved Amy Animations, New Rainbow Ring Animations (Tails,Knuckles,Rouge,Omega), Omega Lock-on Reticle Texture, Omega Voice Remix, Elise Improvements, Physics Comptability 
-- Mellow - Elise Improvements
+- Mellow - Elise Improvements, Fixed Omega's Unused Hover
 - Scrafty- Omega Voice Remix
 - Sable - Loading Screen Designer
 - darkhero1337 - Control Tweaking 
@@ -66,6 +66,8 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 ### DISCLAIMER
 
 99% of mods will NOT work in tandem with LoS.
+
+Before playing on Xenia please make sure protect_zero is set to false! 
 
 ### Other languages
 
