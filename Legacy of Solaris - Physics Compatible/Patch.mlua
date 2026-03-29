@@ -49,7 +49,6 @@ WriteBytes(Executable|0x20F0BC|"D3 EB 00 44")
 WriteBytes(Executable|0x2136BC|"D0 0B 00 44")
 
 --Chaos Blast Improvement Data
-WriteByte(Executable|0x1A9F94|0x40)
 WriteBytes(Executable|0x256551|"40 82 01")
 WriteBytes(Executable|0x256561|"0A 6F 3C")
 
