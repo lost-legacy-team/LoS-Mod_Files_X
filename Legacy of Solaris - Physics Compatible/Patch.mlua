@@ -102,10 +102,6 @@ WriteBytes(Executable|0x39BF4|"40 00 00 00")
 WriteBytes(Executable|0x39C04|"40 00 00 00")
 
 Xbox 360:
---Restore Homing Spam
-WriteByte(Executable|0x21A5D8|0x40)
-WriteByte(Executable|0x1A98AC|0x40)
-
 --Restore Ring Explosion Physics
 WriteBytes(Executable|0xB33A55|"4248")
 WriteBytes(Executable|0xB33A58|"42C8")
