@@ -30,9 +30,6 @@ WriteVirtualBytes(0x822460EE|"D9 D0")
 --Disable Climb from Jump as Rouge
 --WriteBytes(Executable|0x8099|"1A5F30")
 
---Disable Midair Spinning Claw for Blaze
-WriteVirtualBytes(0x821ABFD8|"48 00")
-
 --Various Function Changes to include Gameplay Improvements Such as mid-air control in mach speed or snowboard
 --Disable Push State
 WriteNopPPC(Executable|0x1A33F0)
