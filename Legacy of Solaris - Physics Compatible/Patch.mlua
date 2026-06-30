@@ -257,3 +257,6 @@ EndBlock("win32\archives\player_omega.arc")
 WriteVirtualNop(0x824F0018)
 WriteVirtualNop(0x824F02A0)
 WriteVirtualBytes(0x82509AEA|"15 FC")
+
+--Disable Blaze Mid-Air Spinning Claw (this can be deleted freely for additional tech and/or speedruns)
+WriteVirtualBytes(0x821ABFD8|"48 00")
