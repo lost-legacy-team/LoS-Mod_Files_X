@@ -41,7 +41,7 @@ For general, extra information on setting up SONIC THE HEDGEHOG mods, check the 
 - Chara - New Kingdom Valley Mach Speed Camera  Angles, Added Wind in Egg Wyern Fight, Updated Title Screen Video, Fixed Silvers Shield Particles, Improved Tag Mode Layouts, Fixed Powerup Particles, Updated Trickpoint XNCP, Correct Sonic_Fast Goal Loop animation, added Super Shadow and Super Silver to Final Boss Result Screen, Restore Contextual Hud Colors, Added Tail Swipe Attack Particles,Improved Kingdom Valley WaterFalls,Increased Heat Knuckle Range,Splines for Sonic's Extra Crisis City,Rouge Updownreel animation,Mission Completed Text, Restored Omega's Unused Hover Animation,Restore Silver Boss Throw, Gave all characters ottoto state, Egg Cerb Head Armor Fix,Shadow Slide Kick Particle Fix, Key Radar XNCP UI, Improved Shield Power-up and added SFX, Gauge Full SFX, Aquatic Base Changelight Lighting, Restore Trickpoint Combos,Blue Gem Damages Enemies, Knuckles and Rouge Glide can Damage Enemies.
 - Idorocks23 - New Camera Angles in Sonics Crisis City Boarding Area
 - Spanish new text translations done by Ariosto and FinnJackal
-- French next text translations done by Napstio
+- French new text translations done by Napstio
 
 ### Designers
 - Hyper - Lead Graphics Designer
@@ -72,8 +72,7 @@ Before playing on Xenia please make sure protect_zero is set to false!
 
 ### Other languages
 
-Do to popular demand I have added complete support for the spanish language. Now all of the unique text is in spanish. (This was done via machine translation so if you notice anything odd and would like to correct the main offenders (in game hints, and loading screen hints) please feel free to contact me!
-I am looking for anyone willing to translate this mod into japanese and potentially the other languages it supports, german, and french.
+Due to to popular demand, language support for the mod's new text has been added for Spanish and French. The German, Italian, and Japanese text has the English text as placeholders, and the text exclusive to the Physics Overhaul mod has not yet been translated.
 If you have the time are willing, by all means feel free to contribute.
 
 ### The game is crashing!!/things are not working
@@ -82,12 +81,13 @@ I am not going to take any reports of the mod making the game crash if you are u
 It is a user created problem, not something that is the fault of the mod itself.
 
 ### Notes for installation:
-Legacy of Solaris now requires Gordon Ramsay's Complete Physics Overhaul, Physics Companion, and Khronos mods. The mod will not function properly without them. Please follow all instructions for their installation, including installing the Khronos Resources.,
-Legacy of Solaris MUST be loaded last in the mod managers priority. If your priority is set to "bottom to top", then LoS must be at the top of the list. If "top to bottom", then at the bottom of the list.,
 
-### Known issues
-Multiplayer no longer works with Legacy of Solaris, as it will not load with Physics. This will most likely not be fixed.,
-Some stages are still in need of additional polishing, but every stage is beatable.,
-Mephiles is missing a few particles. Will look into this.,
-Spanish and French language support for the post-game quest as Sonic is not implemented as of yet, as we're waiting on the translations.,
- (edited)
+Legacy of Solaris now requires Gordon Ramsay's Complete Physics Overhaul, Physics Companion, and Khronos mods. The mod will not function properly without them. Please follow all instructions for their installation, including installing the Khronos Resources.
+Legacy of Solaris MUST be loaded last in the mod managers priority. If your priority is set to "bottom to top", then LoS must be at the top of the list. If "top to bottom", then at the bottom of the list.
+If the mod does not install properly one way, shuffling the three Physics mods might help as long as LoS is loaded last.
+
+### Known issues:
+
+Multiplayer no longer works with Legacy of Solaris, as it will not load with Physics. This will most likely not be fixed.
+Some stages are still in need of additional polishing, but every stage is beatable.
+Spanish and French language support for the post-game quest as Sonic is not implemented as of yet, as we're waiting on the translations.
