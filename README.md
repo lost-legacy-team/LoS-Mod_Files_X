@@ -91,6 +91,5 @@ If the mod does not install properly one way, shuffling the three Physics mods m
 
 ### Known issues:
 
-Multiplayer no longer works with Legacy of Solaris, as it will not load with Physics. This will most likely not be fixed.
 Some stages are still in need of additional polishing, but every stage is beatable.
 Spanish and French language support for the post-game quest as Sonic is not implemented as of yet, as we're waiting on the translations.
